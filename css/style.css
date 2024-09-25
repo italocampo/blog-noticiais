@@ -20,7 +20,7 @@
 
 html {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 body {
@@ -37,7 +37,7 @@ header {
   width: 100%;
   top: 0;
   z-index: 100;
-  padding: 1rem 5rem;
+  padding: 16px 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -58,8 +58,8 @@ nav a {
   text-decoration: none;
   color: inherit;
   font-weight: 700;
-  padding: 0.5rem 1rem;
-  letter-spacing: 0.1rem;
+  padding: 8px 16px;
+  letter-spacing: 1.6px;
   transition: 0.5s;
 }
 
@@ -68,30 +68,30 @@ nav a:hover {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 700;
 }
 
 /* ===== Notícias ===== */
 main {
-  margin: 5rem auto;
+  margin: 80px auto;
 }
 
 article {
   background-color: var(--cor-01);
-  height: 16rem;
-  margin: 1rem 5rem;
-  padding: 1rem;
-  border-radius: 0.6rem;
+  height: 256px;
+  margin: 16px 80px;
+  padding: 16px;
+  border-radius: 9.6px;
   transition: 0.5s;
   /* overflow: hidden; */
 
   display: grid;
-  grid-template-columns: 16rem auto;
+  grid-template-columns: 256px auto;
 }
 
 article p {
-  margin-top: 1rem;
+  margin-top: 16px;
   text-align: justify;
 }
 
@@ -99,7 +99,7 @@ article:hover {
   cursor: pointer;
   transform: scale(1.01);
   /* x y desfoque espessura   cor     */
-  box-shadow: 0 0 0.5rem 0.1rem var(--cor-03);
+  box-shadow: 0 0 8px 1.6px var(--cor-03);
 }
 
 .conteudo {
@@ -109,7 +109,7 @@ article:hover {
 }
 .foto {
   overflow: hidden;
-  margin-right: 1rem;
+  margin-right: 16px;
 }
 
 .foto img {
@@ -120,7 +120,7 @@ article:hover {
   font-weight: 700;
   text-align: right;
   color: var(--cor-principal);
-  padding: 1rem;
+  padding: 16px;
 }
 
 /* TESTE */
@@ -132,7 +132,7 @@ article:hover {
 footer {
   background-color: var(--cor-05);
   color: var(--cor-02);
-  padding: 1rem 5rem;
+  padding: 16px 80px;
   text-align: center;
   position: fixed;
   width: 100%;
