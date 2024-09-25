@@ -48,6 +48,10 @@ header span {
   color: var(--cor-principal);
 }
 
+.menu-responsivo {
+  display: none;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
@@ -138,4 +142,37 @@ footer {
   width: 100%;
   bottom: 0;
   opacity: 0.6;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 576px) {
+  header {
+    padding: 1rem 1rem;
+  }
+
+  .menu-responsivo {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  article {
+    height: auto;
+    padding: 1rem;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foto {
+    overflow: hidden;
+    margin-right: 0;
+  }
+
+  .foto img {
+    width: 100%;
+  }
 }
