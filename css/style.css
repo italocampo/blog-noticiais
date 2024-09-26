@@ -147,6 +147,7 @@ footer {
 /* MEDIA QUERIES */
 
 @media (max-width: 576px) {
+  /*TELA LANDSCAPE*/
   header {
     padding: 1rem 1rem;
   }
@@ -168,11 +169,61 @@ footer {
   }
 
   .foto {
-    overflow: hidden;
+    /* overflow: hidden; */
     margin-right: 0;
   }
 
   .foto img {
     width: 100%;
+  }
+
+  .texto {
+    max-height: 10rem;
+    overflow: hidden;
+    border: solid 1px;
+  }
+
+  .menu-responsivo {
+    display: block;
+  }
+
+  .menu-responsivo i {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 576px) {
+  header {
+    background-color: violet;
+  }
+
+  .menu-responsivo {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  article {
+    height: auto;
+    padding: 1rem;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foto {
+    /* overflow: hidden; */
+    margin-right: 0;
+  }
+
+  .foto img {
+    width: 100%;
+  }
+
+  .texto {
+    max-height: 3rem;
+    overflow: hidden;
   }
 }
